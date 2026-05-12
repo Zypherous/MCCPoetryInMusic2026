@@ -46,3 +46,79 @@
 .video-open {
   cursor: pointer;
 }
+/* Restore thumbnail/card look after changing thumbnails from <a> to <button> */
+.card .thumb-wrap {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #1f1f1f;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+}
+
+.card .thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Bigger kiosk-style video modal */
+.video-dialog {
+  border: 0;
+  border-radius: 28px;
+  padding: 24px;
+  width: min(1200px, 94vw);
+  max-width: 94vw;
+  background: #fffdfa;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, .35);
+}
+
+.video-dialog::backdrop {
+  background: rgba(32, 25, 20, .78);
+  backdrop-filter: blur(4px);
+}
+
+.video-frame-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.video-frame-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.video-dialog h2 {
+  margin: 0 0 8px;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.video-dialog .artist {
+  margin-bottom: 0;
+}
+
+/* Make video modal better on smaller screens */
+@media (max-width: 800px) {
+  .video-dialog {
+    width: 96vw;
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  .video-frame-wrap {
+    border-radius: 16px;
+  }
+}
