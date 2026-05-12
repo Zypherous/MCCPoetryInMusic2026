@@ -122,3 +122,120 @@
     border-radius: 16px;
   }
 }
+
+/* iPad Mini / older tablet cleanup */
+@media (max-width: 900px) {
+  .hero {
+    padding: 28px 14px 20px;
+  }
+
+  h1 {
+    font-size: clamp(2.1rem, 8vw, 3.8rem);
+    letter-spacing: -0.04em;
+  }
+
+  .intro {
+    font-size: 1rem;
+    line-height: 1.35;
+    margin: 12px auto 18px;
+  }
+
+  main {
+    padding: 20px 12px 40px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .card {
+    border-radius: 22px;
+  }
+
+  .card-body {
+    padding: 14px;
+  }
+
+  .card h2 {
+    font-size: 1.25rem;
+  }
+
+  .artist {
+    font-size: 0.95rem;
+  }
+
+  .eyebrow {
+    font-size: 0.65rem;
+  }
+
+  .actions {
+    gap: 8px;
+  }
+
+  .actions .btn,
+  .actions button {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Older/smaller iPad portrait */
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Bigger embedded video on iPads */
+@media (max-width: 900px) {
+  .video-dialog {
+    width: 96vw;
+    max-width: 96vw;
+    padding: 14px;
+    border-radius: 20px;
+  }
+
+  .video-frame-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 14px;
+  }
+
+  .video-dialog h2 {
+    font-size: 1.4rem;
+  }
+
+  .video-dialog .artist {
+    font-size: 1rem;
+  }
+}
+
+/* Better landscape kiosk view for iPad Mini */
+@media (orientation: landscape) and (max-height: 800px) {
+  .hero {
+    padding: 20px 14px 14px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .intro {
+    margin: 8px auto 12px;
+  }
+
+  main {
+    padding-top: 16px;
+  }
+
+  .video-dialog {
+    width: 94vw;
+    max-width: 94vw;
+    padding: 12px;
+  }
+
+  .video-frame-wrap {
+    max-height: 70vh;
+  }
+}
