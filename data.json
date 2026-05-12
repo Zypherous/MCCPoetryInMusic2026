@@ -1,112 +1,68 @@
 [
   {
-    "id": "the-gift",
+    "id": 1,
     "title": "The Gift",
     "artist": "Hazel James",
-    "url": "https://youtu.be/2Ts30qloOcM",
-    "youtube_id": "2Ts30qloOcM",
-    "thumbnail": "https://img.youtube.com/vi/2Ts30qloOcM/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2F2Ts30qloOcM",
-    "embed": "https://www.youtube-nocookie.com/embed/2Ts30qloOcM"
+    "url": "https://youtu.be/2Ts30qloOcM"
   },
   {
-    "id": "too-sad-a-song",
+    "id": 2,
     "title": "Too Sad A Song",
     "artist": "Sarie Teichman",
-    "url": "https://youtu.be/AQ7dhtJdVxA",
-    "youtube_id": "AQ7dhtJdVxA",
-    "thumbnail": "https://img.youtube.com/vi/AQ7dhtJdVxA/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FAQ7dhtJdVxA",
-    "embed": "https://www.youtube-nocookie.com/embed/AQ7dhtJdVxA"
+    "url": "https://youtu.be/AQ7dhtJdVxA"
   },
   {
-    "id": "from-hong-kong-to-chinatown",
+    "id": 3,
     "title": "From Hong Kong to Chinatown",
     "artist": "Winnie Lau",
-    "url": "https://youtu.be/zohS9n1lwQE",
-    "youtube_id": "zohS9n1lwQE",
-    "thumbnail": "https://img.youtube.com/vi/zohS9n1lwQE/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FzohS9n1lwQE",
-    "embed": "https://www.youtube-nocookie.com/embed/zohS9n1lwQE"
+    "url": "https://youtu.be/zohS9n1lwQE"
   },
   {
-    "id": "free",
+    "id": 4,
     "title": "Free",
     "artist": "Andre Maldonado",
-    "url": "https://youtu.be/FxYOj01cwXQ",
-    "youtube_id": "FxYOj01cwXQ",
-    "thumbnail": "https://img.youtube.com/vi/FxYOj01cwXQ/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FFxYOj01cwXQ",
-    "embed": "https://www.youtube-nocookie.com/embed/FxYOj01cwXQ"
+    "url": "https://youtu.be/FxYOj01cwXQ"
   },
   {
-    "id": "the-return",
+    "id": 5,
     "title": "The Return",
     "artist": "Joann Chan",
-    "url": "https://youtu.be/s8P8FOkrhI0",
-    "youtube_id": "s8P8FOkrhI0",
-    "thumbnail": "https://img.youtube.com/vi/s8P8FOkrhI0/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2Fs8P8FOkrhI0",
-    "embed": "https://www.youtube-nocookie.com/embed/s8P8FOkrhI0"
+    "url": "https://youtu.be/s8P8FOkrhI0"
   },
   {
-    "id": "dear-titi",
+    "id": 6,
     "title": "Dear Titi",
     "artist": "Monalisa Ortiz",
-    "url": "https://youtu.be/xRLOLD-nPuc",
-    "youtube_id": "xRLOLD-nPuc",
-    "thumbnail": "https://img.youtube.com/vi/xRLOLD-nPuc/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FxRLOLD-nPuc",
-    "embed": "https://www.youtube-nocookie.com/embed/xRLOLD-nPuc"
+    "url": "https://youtu.be/xRLOLD-nPuc"
   },
   {
-    "id": "its-okay",
+    "id": 7,
     "title": "It’s Okay",
     "artist": "Judith Mendez-Maldonado",
-    "url": "https://youtu.be/52vCyCoxBhM",
-    "youtube_id": "52vCyCoxBhM",
-    "thumbnail": "https://img.youtube.com/vi/52vCyCoxBhM/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2F52vCyCoxBhM",
-    "embed": "https://www.youtube-nocookie.com/embed/52vCyCoxBhM"
+    "url": "https://youtu.be/52vCyCoxBhM"
   },
   {
-    "id": "life",
+    "id": 8,
     "title": "Life",
     "artist": "Bonita Fraser",
-    "url": "https://youtu.be/KPrf306BY58",
-    "youtube_id": "KPrf306BY58",
-    "thumbnail": "https://img.youtube.com/vi/KPrf306BY58/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FKPrf306BY58",
-    "embed": "https://www.youtube-nocookie.com/embed/KPrf306BY58"
+    "url": "https://youtu.be/KPrf306BY58"
   },
   {
-    "id": "god-was-and-is-great-to-me",
+    "id": 9,
     "title": "God Was And Is Great To Me",
     "artist": "Sonia Tovar",
-    "url": "https://youtu.be/G2k3Tmwco_Q",
-    "youtube_id": "G2k3Tmwco_Q",
-    "thumbnail": "https://img.youtube.com/vi/G2k3Tmwco_Q/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FG2k3Tmwco_Q",
-    "embed": "https://www.youtube-nocookie.com/embed/G2k3Tmwco_Q"
+    "url": "https://youtu.be/G2k3Tmwco_Q"
   },
   {
-    "id": "shuffle-man",
+    "id": 10,
     "title": "Shuffle Man",
     "artist": "Lisa Davis",
-    "url": "https://youtu.be/GioSl_wvmAk",
-    "youtube_id": "GioSl_wvmAk",
-    "thumbnail": "https://img.youtube.com/vi/GioSl_wvmAk/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FGioSl_wvmAk",
-    "embed": "https://www.youtube-nocookie.com/embed/GioSl_wvmAk"
+    "url": "https://youtu.be/GioSl_wvmAk"
   },
   {
-    "id": "born-after-60",
+    "id": 11,
     "title": "Born After 60",
     "artist": "Rose X",
-    "url": "https://youtu.be/N-qR--bp4P0",
-    "youtube_id": "N-qR--bp4P0",
-    "thumbnail": "https://img.youtube.com/vi/N-qR--bp4P0/hqdefault.jpg",
-    "qr": "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=https%3A%2F%2Fyoutu.be%2FN-qR--bp4P0",
-    "embed": "https://www.youtube-nocookie.com/embed/N-qR--bp4P0"
+    "url": "https://youtu.be/INQhQx0E5S4"
   }
 ]
